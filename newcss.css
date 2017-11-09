@@ -1,0 +1,171 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    font-family:Arial,Verdana,sans-serif;
+    font-size:14px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+.hidden
+{
+    display:none;
+}	
+#wrapper
+{
+    width:760px;
+    margin:auto;
+    padding: 30px;
+
+}
+#main-nav
+{
+    float:left;
+    text-align:left;
+    margin:0px 0px 0px 11px;
+    height:80px;
+}
+#main-nav ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#main-nav ul li
+{
+    display:inline-block;
+} 
+#main-nav a
+{
+    padding:20px 17px;
+    background:#B40404;
+    color:white;
+    display:block;
+    text-decoration:none;
+}  
+#main-nav a:hover
+{
+    background-color:#FFA632;
+    box-shadow:0px 3px 3px #666;
+    text-decoration:underline;
+} 
+#main-nav a:active
+{ 
+    background-color:#FFA632;
+}
+#main-nav a.selected
+{
+    background-color: #FFA632;
+    box-shadow:0px 3px 3px #666;
+    text-decoration:underline;
+}
+#center
+{
+    border: 4px solid black;
+    margin-top:30px;
+    height:250px;
+    width:800px;
+} 
+#header
+{
+    
+    clear:both;
+    background: url('images/2.jpg');
+    height:280px;
+    width:780px;
+
+}
+#header:hover
+{
+    clear:both;
+    background:url('images/covvv.jpg');
+    height:280px;
+    width:780px;
+    box-shadow: 6px 6px grey;
+    background-repeat: no-repeat;
+}
+#content p
+{   
+    margin-right:200px;
+    margin:25px;
+    color:#000000;
+    font-family:Amperzand;
+    font-size:20px;
+}
+
+#content h2
+{ 
+    font-family:"Trebuchet MS",sans-serif;
+    color:#B40404;
+    margin-left:80px;
+    font-size:40px;
+    text-shadow: 2px 2px #190714;
+
+}  
+#footer
+{
+    clear:both;
+    height:15px;
+    font-size:10px;
+    color:#B40404;
+    border-top:1px solid #efefef;
+    padding:10px 25px;
+    line-height:10px;
+}
+#footer a
+{
+    color:#B40404;
+    text-decoration:none;
+}
+#footer a:hover
+{  
+    color:blue;
+}   
+#footer #altnav
+{
+    text-align:right;
+}	
+
+#abc
+{
+   font-family:"Trebuchet MS",sans-serif;
+    color:#B40404;
+    margin:auto;
+    font-size:20px;
+    text-shadow: 1px 1px #190714;
+}
+
+#data
+{
+    color:black;
+}
+
+#form
+{
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    background:url('images/feedback1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 2px 2px 2px #000000;  
+    max-width: 500px;
+    padding: 20px;
+    color:black;
+    font-weight:bold;
+}
+
+#form2
+{
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    background:url('images/job.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px #000000;
+    background-size: 100% 100%;
+    max-width: 500px;
+    padding: 20px 20px 20px 20px;
+    color:black;
+    font-weight:bold;
+}

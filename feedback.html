@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project Web </title>
+        <link rel="stylesheet" href="newcss.css">
+
+    </head>
+   <body background="images/bck.jpg" >
+        <div id="wrapper">
+            <div id="main-nav">
+                <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolios</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="special.html">Special Offers</a></li>
+                    <li><a class="selected" href="feedback.html">Customer Feedback</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+              <div id="details">
+                   <h1 id="abc">Customer  Feed  Back   Form</h1>
+                    <p id="data" align="left">Now that you have gotten the chance to work with me, I'd love to hear feedback. Because it is my primary goal to ensure that all of my clients walk away with a great impression in their mind & are happy with the end result, I truly care what you think! Thank you for taking the time to fill this out<br>
+                    </p>
+
+    <form id="form" method="post" action="php/feedback.php">
+                <p>
+                    <label> First Name </label> <br>
+                    <input name="name" required style="background-color: lightgray"  onfocus="clr(this);" onblur="clr1(this);"  type="text"/>
+                </p>
+                <p>
+                    <label>Last Name </label> <br>
+                    <input name="lname" required style="background-color: lightgray" onfocus="clr(this);" onblur="clr1(this);" type="text"/>
+                </p>
+                <p>
+                    <label>E.Mail</label> <br>
+                    <input name="email" required style="background-color: lightgray" onfocus="clr(this);" onblur="clr1(this);" type="email"/>
+                </p>
+                <p>
+                    <label>Phone No</label> <br>
+                    <input name="phone" required style="background-color: lightgray" onfocus="clr(this);" onblur="clr1(this);" type="text"/>
+                </p>
+                <p>
+                    <textarea required style="background-color: lightgray" name="com" rows="9" cols="40" onfocus="clr(this);" onblur="clr1(this);">		
+                    </textarea>
+                </p>
+                <p>
+                    <input  name="submit" type="submit" value="SEND" id="submitButton" />
+                </p>
+        </form>
+              </div>
+        </div>
+       <div id="footer">
+            <div id="altnav">
+                <a href="index.html">Home</a> -
+                <a href="portfolio.html">Portfolios</a> -
+                <a href="packages.html">Packages</a> -
+                <a href="special.html">Special Offers</a> -
+                <a href="feedback.html">Customer Feedback</a> -
+                <a href="jobs.html">Jobs</a> -
+                <a href="contact.html">Contact Us</a> 
+            </div>
+            Copyright &copy;Capturing Moments<br>
+            Visit my site: <a href="index.html" target="_blank">Capturing-Moments</a>
+        </div>
+        <script>
+  function clr(a){
+  a.style.backgroundColor="White";
+  }
+  function clr1(a){
+  a.style.backgroundColor="lightGrey";
+
+  }
+</script>
+    </body>
+</html>
